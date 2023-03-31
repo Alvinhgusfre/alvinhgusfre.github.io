@@ -1,0 +1,21 @@
+.container {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.booking {
+  display: grid;
+  grid-template-columns: 4em 1fr;
+  grid-template-rows: repeat(3, 2em);
+  justify-content: center;
+  border: 1px solid var(--brand-color);
+  padding: 2em;
+  border-radius: 6px;
+  align-items: center;
+}
+
+.first-col {
+  text-transform: capitalize;
+}
