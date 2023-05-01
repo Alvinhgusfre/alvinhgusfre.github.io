@@ -1,0 +1,103 @@
+
+
+.content {
+  padding: 1em 5em;
+}
+
+
+:root {
+  --brand-color: #f64087;
+  background: black;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.header img {
+  height: 10em;
+  margin-left: 2em;
+}
+
+.header-photo img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: var(--brand-color)
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  color: var(--brand-color);
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+  font-size: 20px;
+  gap: 2em;
+  padding: 0
+}
+
+a {
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--brand-color)
+}
+
+a:hover {
+  color: #fff
+}
+
+p {
+  color: #fff
+}
+
+.socials {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3em;
+  -webkit-mask-mode: alpha;
+  mask-mode: alpha;
+  background-color: black;
+  gap: 1em;
+  margin-top: auto;
+  padding: 2em 0;
+}
+
+.socials a img {
+  height: 100%;
+}
+
+.tiktok {
+  border-radius: 10px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .header img{
+    width: 100%;
+  }
+  body {
+    width: 100%;
+  }
+}
